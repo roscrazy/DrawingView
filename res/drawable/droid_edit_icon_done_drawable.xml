@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- pressed -->
+    <item android:state_pressed="true" android:drawable="@drawable/droid_edit_icon_done_selected" />
+    
+    <item android:state_selected="true" android:drawable="@drawable/droid_edit_icon_done_selected" />
+    <!-- focused -->
+    <item android:state_focused="true" android:drawable="@drawable/droid_edit_icon_done_selected" />
+    <!-- default -->
+    <item android:drawable="@drawable/droid_edit_icon_done" />
+</selector>
