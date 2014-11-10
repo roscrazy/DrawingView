@@ -8,7 +8,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.actionbarsherlock.app.SherlockFragment;
-import com.hanbiro.signview.R;
+import com.roscrazy.signview.R;
 
 
 public class SignFragment extends SherlockFragment{
