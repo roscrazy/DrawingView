@@ -1,7 +1,7 @@
 package com.rocrazy.signview;
 import java.io.OutputStream;
 
-import com.hanbiro.signview.R;
+import com.roscrazy.signview.R;
 
 import android.content.Context;
 import android.content.res.TypedArray;
