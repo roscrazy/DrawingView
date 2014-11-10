@@ -13,3 +13,8 @@ There are two values you should care about:
 
 Note : The image file in the example will be saved on your "sdcard/SignView" folder
 
+Example :
+
+![alt tag](http://s28.postimg.org/z94yvlyx9/1415638175277.png)
+
+![alt tag](http://s8.postimg.org/gng33qtx1/device_2014_11_11_001550.png)
