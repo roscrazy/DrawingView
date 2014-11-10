@@ -1,8 +1,6 @@
 package com.rocrazy.signview;
 import java.io.OutputStream;
 
-import com.roscrazy.signview.R;
-
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.graphics.Bitmap;
@@ -11,9 +9,11 @@ import android.graphics.Color;
 import android.graphics.Paint;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
-import android.widget.LinearLayout;
+import android.view.View;
 
-public class SignView extends LinearLayout{
+import com.roscrazy.signview.R;
+
+public class SignView extends View{
 
 	private static final String TAG = "SignView";
 	private int STROKE_WIDTH = 7;
@@ -38,6 +38,7 @@ public class SignView extends LinearLayout{
 			STROKE_WIDTH = array.getDimensionPixelSize(R.styleable.SignView_strokeSize, STROKE_WIDTH);
 			VELOCITY_FILTER_WEIGHT = array.getFloat(R.styleable.SignView_filterWeight, 0.2f);
 		}
+		array.recycle();
 		init();
 	}
 
