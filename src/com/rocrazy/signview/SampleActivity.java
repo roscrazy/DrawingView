@@ -2,7 +2,7 @@ package com.rocrazy.signview;
 
 import java.io.File;
 
-import com.hanbiro.signview.R;
+import com.roscrazy.signview.R;
 
 import android.app.Activity;
 import android.content.Intent;
