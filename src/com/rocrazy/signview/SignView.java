@@ -36,7 +36,7 @@ public class SignView extends View{
 		TypedArray array = context.obtainStyledAttributes(attrs, R.styleable.SignView);
 		if(array != null){
 			STROKE_WIDTH = array.getDimensionPixelSize(R.styleable.SignView_strokeSize, STROKE_WIDTH);
-			VELOCITY_FILTER_WEIGHT = array.getFloat(R.styleable.SignView_filterWeight, 0.2f);
+			VELOCITY_FILTER_WEIGHT = array.getFloat(R.styleable.SignView_filterWeight, VELOCITY_FILTER_WEIGHT);
 		}
 		array.recycle();
 		init();
