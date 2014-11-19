@@ -12,6 +12,7 @@ There are two values you should care about:
 2. strokeSize : The biggest stroke size when user drawing.
 
 Note : The image file in the example will be saved on your "sdcard/SignView" folder
+        And you need ActionBarSherlock to run the example :  https://github.com/JakeWharton/ActionBarSherlock
 
 Example :
 
