@@ -45,12 +45,21 @@ public class SignActivity extends SherlockFragmentActivity {
 			SignFragment fragment = (SignFragment) getSupportFragmentManager().findFragmentByTag(FRAGMENT_TAG);
 			if(fragment != null){
 				File file = new File(getIntent().getStringExtra(KEY_DATA) + "/" + System.currentTimeMillis() + ".png");
+				FileOutputStream outputStream = null;
 				try {
-					FileOutputStream outputStream = new  FileOutputStream(file);
+					outputStream = new  FileOutputStream(file);
 					fragment.save(outputStream);
 				} catch (FileNotFoundException e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
+				}finally{
+					if(outputStream != null)
+						try {
+							outputStream.close();
+						} catch (IOException e) {
+							// TODO Auto-generated catch block
+							e.printStackTrace();
+						}
 				}
 			}
 			
