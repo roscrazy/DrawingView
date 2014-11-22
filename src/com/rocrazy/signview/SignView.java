@@ -113,6 +113,7 @@ public class SignView extends View{
 			previousPoint = currentPoint;
 			currentPoint = new Point(event.getX(), event.getY(), System.currentTimeMillis());
 			drawLine(canvasBmp, paint, lastWidth, 0);
+			this.performClick();
 			break;
 		default:
 			break;
@@ -169,7 +170,7 @@ public class SignView extends View{
 
 	private Point  midPoint(Point p1, Point p2)
 	{
-		return new Point((p1.x + p2.x) / 2.0f ,  (p1.y + p2.y) * 0.5f, (p1.time + p2.time) / 2);
+		return new Point((p1.x + p2.x) / 2.0f ,  (p1.y + p2.y) / 2, (p1.time + p2.time) / 2);
 	}
 	
 	public void save(OutputStream outputStream){
