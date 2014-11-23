@@ -13,7 +13,9 @@ There are two values you should care about:
 
 Note : The image file in the example will be saved on your "sdcard/SignView" folder
         And you need ActionBarSherlock to run the example :  https://github.com/JakeWharton/ActionBarSherlock
-
+And one more thing : To draw smooth line, I use the floating point number so, it's kind of difficult to optimise the view(ex: using bitwise operators...) 
+  
+  
 Example :
 
 ![alt tag](http://s28.postimg.org/z94yvlyx9/1415638175277.png)
