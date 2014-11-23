@@ -13,6 +13,7 @@ There are two values you should care about:
 
 Note : The image file in the example will be saved on your "sdcard/SignView" folder
         And you need ActionBarSherlock to run the example :  https://github.com/JakeWharton/ActionBarSherlock
+
 And one more thing : To draw smooth line, I use the floating point number so, it's kind of difficult to optimise the view(ex: using bitwise operators...) 
   
   
