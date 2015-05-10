@@ -2,17 +2,21 @@ package com.rocrazy.signview;
 
 import java.io.OutputStream;
 
+
 import android.os.Bundle;
+import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.actionbarsherlock.app.SherlockFragment;
 import com.roscrazy.signview.R;
 
 
-public class SignFragment extends SherlockFragment{
+public class SignFragment extends Fragment {
+
+
 	private SignView signView;
+
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
 			Bundle savedInstanceState) {
