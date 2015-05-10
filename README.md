@@ -11,8 +11,6 @@ There are two values you should care about:
 1. filterWeight : How the stroke size will be changed when user change his finger speed(this value effect on the lowpass filter to mitigate velocity aberrations). You can set this value from 0 -> 1, and figure out which value suit for your app.
 2. strokeSize : The biggest stroke size when user drawing.
 
-Note : The image file in the example will be saved on your "sdcard/SignView" folder
-        And you need ActionBarSherlock to run the example :  https://github.com/JakeWharton/ActionBarSherlock
 
 And one more thing : To draw smooth line, I use the floating point number so, it's kind of difficult to optimise the view(ex: using bitwise operators...) 
   
